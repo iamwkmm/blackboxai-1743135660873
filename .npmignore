@@ -1,0 +1,157 @@
+# Source code
+src/
+tests/
+__tests__/
+test/
+__mocks__/
+coverage/
+.nyc_output/
+
+# Development configs
+.babelrc
+.browserslistrc
+.editorconfig
+.eslintrc
+.eslintignore
+.prettierrc
+.prettierignore
+.stylelintrc
+.stylelintignore
+.travis.yml
+.gitlab-ci.yml
+.github/
+.husky/
+.vscode/
+.idea/
+*.config.js
+webpack.*.js
+rollup.*.js
+vite.*.js
+jest.*.js
+cypress.*.js
+tsconfig.json
+
+# Documentation
+docs/
+wiki/
+*.md
+!README.md
+CHANGELOG.md
+CONTRIBUTING.md
+CODE_OF_CONDUCT.md
+SECURITY.md
+LICENSE
+
+# Development tools
+.git/
+.gitignore
+.gitattributes
+.gitkeep
+.npmrc
+.nvmrc
+.yarnrc
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Dependencies
+node_modules/
+bower_components/
+jspm_packages/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build tools
+.grunt/
+.webpack/
+.next/
+.nuxt/
+.vuepress/
+.cache/
+.parcel-cache/
+.serverless/
+.fusebox/
+.dynamodb/
+.tern-port
+
+# Environment
+.env
+.env.*
+.env.local
+.env.*.local
+*.env
+config.local.js
+
+# Debug logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# IDE specific
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.project
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# OS specific
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# Compiled output
+dist/debug/
+dist/coverage/
+dist/docs/
+dist/test/
+dist/**/*.test.js
+dist/**/*.spec.js
+
+# Assets source files
+assets/raw/
+assets/src/
+assets/design/
+*.psd
+*.ai
+*.sketch
+
+# Development scripts
+scripts/
+tools/
+tasks/
+
+# Example and demo files
+examples/
+demo/
+samples/
+fixtures/
+
+# Backup files
+backup/
+*.backup
+*.bak
+
+# Keep specific files
+!dist/
+!bin/
+!lib/
+!README.md
+!LICENSE
+!CHANGELOG.md

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE cross-domain-policy SYSTEM "http://www.adobe.com/xml/dtds/cross-domain-policy.dtd">
+<cross-domain-policy>
+    <!-- Política más restrictiva por defecto -->
+    <site-control permitted-cross-domain-policies="master-only"/>
+    
+    <!-- Permitir acceso solo desde dominios confiables -->
+    <allow-access-from domain="*.octavadigital.cl" secure="true"/>
+    <allow-access-from domain="octavadigital.cl" secure="true"/>
+    
+    <!-- Permitir acceso desde CDN -->
+    <allow-access-from domain="*.cloudfront.net" secure="true"/>
+    
+    <!-- Permitir acceso desde dominios de desarrollo -->
+    <allow-access-from domain="*.staging.octavadigital.cl" secure="true"/>
+    
+    <!-- Restringir acceso a puertos específicos -->
+    <allow-http-request-headers-from domain="*.octavadigital.cl" headers="*" secure="true"/>
+    
+    <!-- Configuración para sockets seguros -->
+    <allow-access-from domain="*.octavadigital.cl" to-ports="443,8443" secure="true"/>
+    
+    <!-- No permitir acceso a otros puertos -->
+    <allow-access-from domain="*" to-ports="443" secure="true"/>
+</cross-domain-policy>

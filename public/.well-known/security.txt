@@ -1,0 +1,31 @@
+# Our security address
+Contact: mailto:security@octavadigital.cl
+Contact: https://octavadigital.cl/security/report
+Contact: tel:+56-2-XXXX-XXXX
+
+# Our security page
+Policy: https://octavadigital.cl/security-policy
+
+# Our OpenPGP key
+Encryption: https://octavadigital.cl/pgp-key.txt
+
+# Our security acknowledgments page
+Acknowledgments: https://octavadigital.cl/security/hall-of-fame
+
+# Languages we speak
+Preferred-Languages: es, en
+
+# Our security team
+Hiring: https://octavadigital.cl/careers/security
+
+# Canonical URI
+Canonical: https://octavadigital.cl/.well-known/security.txt
+
+# Policy expires in 1 year
+Expires: 2025-01-01T00:00:00.000Z
+
+# Digital signature
+-----BEGIN PGP SIGNATURE-----
+Comment: https://keybase.io/octavadigital
+[Your PGP Signature Here]
+-----END PGP SIGNATURE-----

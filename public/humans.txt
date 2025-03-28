@@ -1,0 +1,98 @@
+/* EQUIPO */
+	Jefe de Proyecto: Octava Digital Team
+	Contacto: contacto@octavadigital.cl
+	Twitter: @octavadigital
+	Ubicación: Santiago, Chile
+
+/* GRACIAS */
+	Nombre: Equipo de Desarrollo
+	GitHub: github.com/octavadigital
+
+/* SITIO */
+	Última actualización: 2024/01/01
+	Idiomas: Español
+	Doctype: HTML5
+	IDE: Visual Studio Code
+
+/* TECNOLOGÍAS */
+	PHP 7.4+
+	MySQL 5.7+
+	HTML5
+	CSS3
+	JavaScript
+	Tailwind CSS
+	Font Awesome
+	Google Fonts
+
+/* SOFTWARE Y SERVICIOS */
+	Sistema Operativo: Linux
+	Servidor Web: Apache 2.4
+	Control de Versiones: Git
+	Base de Datos: MySQL
+	Editor: Visual Studio Code
+	Diseño: Figma
+	Optimización de Imágenes: ImageMagick
+
+/* ESTÁNDARES */
+	- HTML5
+	- CSS3
+	- JavaScript ES6+
+	- WAI-ARIA
+	- Schema.org
+	- RSS/Atom
+	- Open Graph protocol
+	- Twitter Cards
+
+/* CARACTERÍSTICAS */
+	Responsive: Sí
+	Accesibilidad: WCAG 2.1
+	Compatibilidad: IE11+, Chrome, Firefox, Safari, Edge
+	Optimizado para móviles: Sí
+	Rendimiento: Google PageSpeed > 90
+	CDN: Sí
+	SSL: Sí
+	IPv6: Sí
+
+/* HERRAMIENTAS */
+	Analytics: Google Analytics
+	Monitoreo: New Relic
+	SEO: Google Search Console
+	Seguridad: Cloudflare
+	Backups: Automatizados diarios
+	CI/CD: GitHub Actions
+
+/* AGRADECIMIENTOS */
+	- A todo el equipo de Octava Digital
+	- A nuestros usuarios por su feedback
+	- A la comunidad open source
+	- A nuestros clientes por su confianza
+
+/* DOCUMENTACIÓN */
+	GitHub: github.com/octavadigital/cms
+	Wiki: github.com/octavadigital/cms/wiki
+	Issues: github.com/octavadigital/cms/issues
+
+/* NOTA */
+	Este sitio fue desarrollado con pasión y dedicación
+	por el equipo de Octava Digital.
+	Construido en Santiago de Chile 🇨🇱
+	con ❤️ y mucho ☕
+
+                    ,)))))),,,
+                  ,(((((((((((((((,
+                ,(((((((((((((((((((,
+               ,,'  '((((((((((((((((,
+              ,,,      '(((((((((((((((
+            ,''''         '(((((((((((((.
+           ,'''''''         '((((((((((((.
+          ,'''''''''         '((((((((((((
+         ,'''''''''''''       '((((((((((((
+        ,'''''''''''''''''     '(((((((((((
+       ,'''''''''''''''''''      ((((((((((
+      ,''''''''''''''''''''''     '((((((((
+     ,''''''''''''''''''''''''      '((((((
+    ,''''''''''''''''''''''''''       '((((
+   ,''''''''''''''''''''''''''''        '((
+  ,''''''''''''''''''''''''''''''         '
+ ,''''''''''''''''''''''''''''''''
+,'''''''''''''''''''''''''''''''''''''

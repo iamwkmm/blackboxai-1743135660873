@@ -1,0 +1,101 @@
+{
+  "presets": [
+    ["@babel/preset-env", {
+      "targets": {
+        "browsers": [
+          "last 2 versions",
+          "> 1%",
+          "not dead",
+          "not ie 11"
+        ],
+        "node": "current"
+      },
+      "modules": false,
+      "useBuiltIns": "usage",
+      "corejs": 3,
+      "debug": false
+    }],
+    ["@babel/preset-react", {
+      "runtime": "automatic",
+      "development": process.env.NODE_ENV === "development",
+      "importSource": "@emotion/react"
+    }],
+    ["@babel/preset-typescript", {
+      "isTSX": true,
+      "allExtensions": true,
+      "allowNamespaces": true,
+      "allowDeclareFields": true
+    }]
+  ],
+  "plugins": [
+    ["@babel/plugin-transform-runtime", {
+      "corejs": 3,
+      "helpers": true,
+      "regenerator": true
+    }],
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-proposal-object-rest-spread",
+    "@babel/plugin-proposal-optional-chaining",
+    "@babel/plugin-proposal-nullish-coalescing-operator",
+    ["@babel/plugin-proposal-decorators", { "legacy": true }],
+    "@emotion/babel-plugin",
+    [
+      "module-resolver",
+      {
+        "root": ["./src"],
+        "alias": {
+          "@": "./src",
+          "@components": "./src/components",
+          "@utils": "./src/utils",
+          "@styles": "./src/styles",
+          "@assets": "./src/assets"
+        }
+      }
+    ]
+  ],
+  "env": {
+    "development": {
+      "plugins": [
+        "react-refresh/babel"
+      ]
+    },
+    "production": {
+      "plugins": [
+        ["transform-remove-console", {
+          "exclude": ["error", "warn"]
+        }],
+        "transform-react-remove-prop-types"
+      ]
+    },
+    "test": {
+      "presets": [
+        ["@babel/preset-env", {
+          "targets": {
+            "node": "current"
+          }
+        }]
+      ],
+      "plugins": [
+        "dynamic-import-node",
+        "@babel/plugin-transform-modules-commonjs"
+      ]
+    }
+  },
+  "overrides": [
+    {
+      "test": "./node_modules",
+      "sourceType": "unambiguous"
+    }
+  ],
+  "ignore": [
+    "node_modules",
+    "build",
+    "dist",
+    "coverage",
+    "**/*.d.ts"
+  ],
+  "sourceMaps": true,
+  "retainLines": true,
+  "comments": false,
+  "minified": true
+}

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+    <!-- Página principal -->
+    <url>
+        <loc>https://www.octavadigital.cl/</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+        <lastmod>2024-01-01</lastmod>
+    </url>
+
+    <!-- Sección de noticias -->
+    <url>
+        <loc>https://www.octavadigital.cl/noticias</loc>
+        <changefreq>hourly</changefreq>
+        <priority>0.9</priority>
+        <lastmod>2024-01-01</lastmod>
+    </url>
+
+    <!-- Categorías principales -->
+    <url>
+        <loc>https://www.octavadigital.cl/categoria/general</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+        <lastmod>2024-01-01</lastmod>
+    </url>
+    <url>
+        <loc>https://www.octavadigital.cl/categoria/tecnologia</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+        <lastmod>2024-01-01</lastmod>
+    </url>
+    <url>
+        <loc>https://www.octavadigital.cl/categoria/cultura</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+        <lastmod>2024-01-01</lastmod>
+    </url>
+    <url>
+        <loc>https://www.octavadigital.cl/categoria/deportes</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+        <lastmod>2024-01-01</lastmod>
+    </url>
+
+    <!-- Páginas estáticas -->
+    <url>
+        <loc>https://www.octavadigital.cl/acerca-de</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+        <lastmod>2024-01-01</lastmod>
+    </url>
+    <url>
+        <loc>https://www.octavadigital.cl/contacto</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+        <lastmod>2024-01-01</lastmod>
+    </url>
+    <url>
+        <loc>https://www.octavadigital.cl/politica-privacidad</loc>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+        <lastmod>2024-01-01</lastmod>
+    </url>
+    <url>
+        <loc>https://www.octavadigital.cl/terminos-condiciones</loc>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+        <lastmod>2024-01-01</lastmod>
+    </url>
+
+    <!-- Ejemplo de noticia con metadatos -->
+    <url>
+        <loc>https://www.octavadigital.cl/noticia/ejemplo-noticia</loc>
+        <lastmod>2024-01-01</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.6</priority>
+        <news:news>
+            <news:publication>
+                <news:name>Octava Digital</news:name>
+                <news:language>es</news:language>
+            </news:publication>
+            <news:publication_date>2024-01-01T00:00:00+00:00</news:publication_date>
+            <news:title>Título de la noticia de ejemplo</news:title>
+        </news:news>
+        <image:image>
+            <image:loc>https://www.octavadigital.cl/uploads/news/ejemplo-imagen.jpg</image:loc>
+            <image:title>Título de la imagen de ejemplo</image:title>
+        </image:image>
+    </url>
+
+</urlset>

@@ -1,0 +1,119 @@
+# Archivos de configuración
+/config/config.php
+.env
+*.config.php
+
+# Directorios de subidas
+/uploads/*
+!/uploads/.htaccess
+!/uploads/index.html
+!/uploads/news/.htaccess
+!/uploads/news/index.html
+!/uploads/gallery/.htaccess
+!/uploads/gallery/index.html
+
+# Caché y logs
+/cache/*
+/logs/*
+*.log
+*.cache
+
+# Dependencias
+/vendor/
+/node_modules/
+composer.lock
+package-lock.json
+yarn.lock
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos de IDE y editores
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+.project
+.settings/
+.classpath
+.buildpath
+*.bak
+
+# Archivos temporales
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Archivos de base de datos
+*.sql
+*.sqlite
+*.db
+/database/backups/
+
+# Archivos de sesión
+/sessions/
+*.sess
+
+# Archivos de compilación
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Archivos comprimidos
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Archivos de certificados y claves
+*.pem
+*.key
+*.crt
+*.csr
+*.der
+*.priv
+*.pub
+
+# Archivos de testing
+/tests/coverage/
+/phpunit.xml
+.phpunit.result.cache
+
+# Archivos de documentación generados
+/docs/build/
+/docs/api/
+/phpdoc/
+
+# Otros archivos específicos del proyecto
+TODO.md
+NOTES.md
+*.todo
+*.local.*
+
+# Mantener archivos .gitkeep
+!.gitkeep
+
+# Mantener archivos de ejemplo
+!config.example.php
+!.env.example
+
+# Mantener directorios vacíos necesarios
+!/cache/.gitkeep
+!/logs/.gitkeep
+!/uploads/news/.gitkeep
+!/uploads/gallery/.gitkeep
+!/database/backups/.gitkeep

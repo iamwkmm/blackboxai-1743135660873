@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<access-policy>
+    <cross-domain-access>
+        <!-- Política para requerimientos de recursos -->
+        <policy>
+            <allow-from http-request-headers="*">
+                <!-- Dominios principales -->
+                <domain uri="https://*.octavadigital.cl"/>
+                <domain uri="https://octavadigital.cl"/>
+                
+                <!-- CDN y recursos estáticos -->
+                <domain uri="https://*.cloudfront.net"/>
+                <domain uri="https://*.amazonaws.com"/>
+                
+                <!-- Entornos de desarrollo y staging -->
+                <domain uri="https://*.staging.octavadigital.cl"/>
+                <domain uri="https://localhost:44300"/>
+            </allow-from>
+            <grant-to>
+                <!-- Recursos permitidos -->
+                <resource path="/" include-subpaths="true"/>
+                <resource path="/api/" include-subpaths="true"/>
+                <resource path="/services/" include-subpaths="true"/>
+                <resource path="/public/" include-subpaths="true"/>
+                
+                <!-- Excluir rutas sensibles -->
+                <resource path="/admin/" include-subpaths="false"/>
+                <resource path="/internal/" include-subpaths="false"/>
+                <resource path="/config/" include-subpaths="false"/>
+                
+                <!-- Tipos de socket permitidos -->
+                <socket-resource port="443"/>
+                <socket-resource port="8443"/>
+            </grant-to>
+        </policy>
+    </cross-domain-access>
+</access-policy>

@@ -1,0 +1,58 @@
+# robots.txt for CMS Octava Digital
+
+# Configuración global
+User-agent: *
+Allow: /
+Allow: /public/
+Allow: /uploads/news/
+Allow: /uploads/gallery/
+
+# Proteger áreas sensibles
+Disallow: /admin/
+Disallow: /config/
+Disallow: /controllers/
+Disallow: /models/
+Disallow: /database/
+Disallow: /vendor/
+Disallow: /cache/
+Disallow: /logs/
+
+# Proteger archivos sensibles
+Disallow: /*.php$
+Disallow: /*.sql$
+Disallow: /*.log$
+Disallow: /*.json$
+Disallow: /*.lock$
+Disallow: /*.config$
+Disallow: /*.env$
+Disallow: /.git/
+Disallow: /.htaccess
+Disallow: /composer.json
+Disallow: /composer.lock
+Disallow: /package.json
+Disallow: /package-lock.json
+
+# Evitar indexación de parámetros de búsqueda
+Disallow: /*?*
+
+# Permitir a Googlebot indexar imágenes
+User-agent: Googlebot-Image
+Allow: /uploads/news/
+Allow: /uploads/gallery/
+Disallow: /admin/
+Disallow: /config/
+
+# Configuración específica para redes sociales
+User-agent: Twitterbot
+Allow: /uploads/news/
+Allow: /uploads/gallery/
+
+User-agent: facebookexternalhit
+Allow: /uploads/news/
+Allow: /uploads/gallery/
+
+# Tiempo de espera entre solicitudes
+Crawl-delay: 10
+
+# Sitemap (descomentar y ajustar en producción)
+# Sitemap: https://www.octavadigital.cl/sitemap.xml

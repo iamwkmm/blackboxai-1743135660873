@@ -1,0 +1,143 @@
+# Dependencies
+node_modules/
+bower_components/
+vendor/
+**/vendor/
+
+# Build outputs
+dist/
+build/
+public/build/
+coverage/
+.next/
+out/
+.nuxt/
+.output/
+
+# Generated files
+**/*.min.js
+**/*.bundle.js
+**/*.generated.js
+**/*.d.ts
+*.config.js
+**/serviceWorker.js
+
+# Cache and temporary
+.cache/
+.temp/
+.tmp/
+.eslintcache
+
+# Test files
+__tests__/snapshots/
+__snapshots__/
+*.test.js.snap
+coverage/
+
+# Configuration files
+*.config.js
+webpack.config.js
+babel.config.js
+jest.config.js
+next.config.js
+nuxt.config.js
+vite.config.js
+tailwind.config.js
+postcss.config.js
+
+# Package files
+package.json
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Documentation
+docs/
+*.md
+LICENSE
+*.txt
+
+# IDE and editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Assets and media
+public/assets/
+src/assets/
+static/
+*.svg
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.ico
+*.woff
+*.woff2
+*.eot
+*.ttf
+*.otf
+
+# Legacy support
+legacy/
+deprecated/
+**/polyfills/
+**/IE/
+
+# Third-party code
+**/libs/
+**/vendors/
+**/third-party/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Specific file types
+*.min.js
+*.bundle.js
+*.chunk.js
+*.umd.js
+*.esm.js
+*.cjs.js
+*.mjs
+
+# Framework specific
+.next/
+.nuxt/
+.gatsby/
+.vuepress/
+.docusaurus/
+
+# Debug files
+*.debug.js
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Specific directories
+scripts/
+tools/
+config/
+public/static/
+
+# Keep these files (negate previous rules)
+!.eslintrc.js
+!.prettierrc.js
+!commitlint.config.js
+!jest.setup.js
+
+# Large files
+*.large.js
+*.min.js.map
+*.bundle.js.map
+
+# Temporary development files
+*.dev.js
+*.local.js
+*.test.js
+*.spec.js
